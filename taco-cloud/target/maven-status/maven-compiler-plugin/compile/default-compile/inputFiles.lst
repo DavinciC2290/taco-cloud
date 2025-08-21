@@ -1,0 +1,11 @@
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/TacoCloudApplication.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/controllers/DesignTacoController.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/controllers/HomeController.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/controllers/OrderController.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/converters/IngredientByIdConverter.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/domain/Ingredient.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/domain/Taco.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/domain/TacoOrder.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/repositories/IngredientRepository.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/repositories/TacoOrderRepository.java
+/home/sauldavinci/miDirectorio/Projects/Spring-In-Action/taco-cloud/src/main/java/com/example/saul/taco_cloud/repositories/TacoRepository.java

@@ -1,0 +1,6 @@
+com/example/saul/taco_cloud/TacoCloudApplication.class
+com/example/saul/taco_cloud/controllers/DesignTacoController.class
+com/example/saul/taco_cloud/domain/Taco.class
+com/example/saul/taco_cloud/domain/Ingredient.class
+com/example/saul/taco_cloud/domain/TacoOrder.class
+com/example/saul/taco_cloud/domain/Ingredient$Type.class

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Taco Cloud registration</title>
+    </head>
+    <body>
+        <h1>Welcome to...</h1>
+        <img th:src="@{/images/taco_logo.png}"/>
+        <br/>
+        <h2>Start customizing your Tacos to your liking 🌮 and order them!</h2>
+        <h2>Sign up!!</h2>
+        <br/>
+
+        <form method="POST"  th:action="@{/register}" th:object="${formObject}">
+
+            <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+
+            <label>Username: </label>
+            <input type="text" th:field="*{username}"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('username')}"
+             th:errors="*{username}">Errror message</span>
+            <br/>
+            <br/>
+
+            <label>Password: </label>
+            <input type="password" th:field="*{password}"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('password')}"
+             th:errors="*{password}">Errror message</span>
+            <br/>
+            <br/>
+
+            <label>Full name: </label>
+            <input type="text" th:field="*{fullname}"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('fullname')}"
+             th:errors="*{fullname}">Errror message</span>
+            <br/>
+            <br/>
+
+            <label>Phone: </label>
+            <input type="text" th:field="*{phone}" maxlength="10"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('phone')}"
+             th:errors="*{phone}">Errror message</span>
+            <br/>
+            <br/>
+
+            <label>Street: </label>
+            <input type="text" th:field="*{street}"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('street')}"
+             th:errors="*{street}">Errror message</span>
+            <br/>
+            <br/>
+
+            <label>City: </label>
+            <input type="text" th:field="*{city}"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('city')}"
+             th:errors="*{city}">Errror message</span>
+            <br/>
+            <br/>
+
+            <label>State: </label>
+            <input type="text" th:field="*{state}"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('state')}"
+             th:errors="*{state}">Errror message</span>
+            <br/>
+            <br/>
+
+            <label>Zip: </label>
+            <input type="text" th:field="*{zip}"/>
+            <span style="color:red;" th:if="${#fields.hasErrors('zip')}"
+             th:errors="*{zip}">Errror message</span>
+            <br/>
+            <br/>
+
+            <button type="submit">Register</button>
+            <br/>
+            <br/>
+
+        </form>
+
+        <a th:href="@{/login}">Log in</a>
+    </body>
+</html>
